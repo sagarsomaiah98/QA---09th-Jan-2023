@@ -1,6 +1,6 @@
 package Sample;
 
-public class Comments {
+public class Comment {
 
 	public static void main(String[] args) {
 		   System.out.println("Welcome to Janbask QA training");
