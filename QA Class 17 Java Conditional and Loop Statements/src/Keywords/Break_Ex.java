@@ -8,7 +8,7 @@ public class Break_Ex {
 		   
 		for(int a=1;a<=200;a++) {
 			
-			if(a==f)
+			if(a>f)
 			break;
 			
 			System.out.println(a);

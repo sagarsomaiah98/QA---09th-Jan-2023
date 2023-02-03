@@ -15,8 +15,8 @@ public class Var_Ex2 {
 		 // System.out.println(a);
 		  a=200;
 		  a=c;
-		  c=d;
-		  d=a;
+		  c=d;//c=5
+		  d=a;//d=30
 		  
 		
 		System.out.println(d);

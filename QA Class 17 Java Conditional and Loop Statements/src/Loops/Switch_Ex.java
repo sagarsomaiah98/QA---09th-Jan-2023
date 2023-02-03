@@ -4,7 +4,7 @@ public class Switch_Ex {
 
 	public static void main(String[] args) {
 		
-		char grade='C';
+		char grade='Z';
 		
 		switch(grade) 
 		{

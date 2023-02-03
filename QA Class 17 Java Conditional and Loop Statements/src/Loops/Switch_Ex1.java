@@ -3,7 +3,7 @@ package Loops;
 public class Switch_Ex1 {
 
 	public static void main(String[] args) {
-String browser="FIREFOX";
+String browser="OPERA";
 		
 		switch(browser) 
 		{

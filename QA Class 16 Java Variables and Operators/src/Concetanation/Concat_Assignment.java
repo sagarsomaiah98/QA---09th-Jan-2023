@@ -11,6 +11,7 @@ public class Concat_Assignment {
 		
 		// Peter whose age is 40 has salary of 432.56 dollars
 		
+		System.out.println("Peter whose age is 40 has salary of 432.56 dollars");
 		
 	}
 
