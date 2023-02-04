@@ -4,7 +4,7 @@ public class Array_Ex1 {
 
 	public static void main(String[] args) {
 		
-		String colors[] = new String[6];
+		String colors[] = new String[20];
 		
 		colors[0]="Red";
 		colors[1]="blue";
@@ -12,16 +12,19 @@ public class Array_Ex1 {
 		colors[3]="green";
 		colors[4]="yellow";
 		colors[5]="black";
+		colors[6]="Brown";
+		colors[7]="black";
 		
-		// arrayname.length will give you the length of array
-		System.out.println(colors.length);
-		int len=colors.length;
+	
+        int len= colors.length; 
+        
+       // System.out.println(len);
 		
-		for(int i=0;i<len;i++) {
-			
+		for(int i=0;i<len;i++) 
+		{
 			System.out.println(colors[i]);
+			
 		}
-		
 		
 
 	}

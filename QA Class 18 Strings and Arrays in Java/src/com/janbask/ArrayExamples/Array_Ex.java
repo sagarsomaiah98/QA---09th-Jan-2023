@@ -5,29 +5,31 @@ public class Array_Ex {
 	public static void main(String[] args) {
 		
 	
-	//DataType arrayName = new DataType[size of array]	
+	//DataType[]  arrayName = new DataType[size of array]	
 		
-		String Students[]= new String[5];
+		String[] Student =new String[5];
 		
-		Students[2]="Mark";
-		Students[4]="Kevin";
-		Students[3]="Sam";
-		Students[0]="John";
-		Students[1]="Bruce";
-		Students[2]="Lee";
-		Students[0]="James";
+		Student[2]="Kevin";
+		Student[4]="James";
+		Student[1]="Bob";
+		Student[3]="Henry";
+		Student[0]="Alice";
+		Student[2]="Ram";
+		Student[3]="Bruce";
+		Student[2]="Jessica";
+		Student[2]="Tom";
+		Student[3]=Student[0];
 		
-		/*
-		 * System.out.println(Students[0]); System.out.println(Students[1]);
-		 * System.out.println(Students[2]); System.out.println(Students[3]);
-		 * System.out.println(Students[4]);
-		 */
-	
-		for(int a=0;a<5;a++) {
-			System.out.println(Students[a]);
-		}
 		
-
+		
+		System.out.println(Student[0]);
+		System.out.println(Student[1]);
+		System.out.println(Student[2]);
+		
+		System.out.println(Student[3]);
+		System.out.println(Student[4]);
+		
+		
 	}
 
 }

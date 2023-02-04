@@ -5,7 +5,7 @@ public class String_Functions {
 		// TODO Auto-generated method stub
 		
 		           //0123456789
-		String value="Welcome to training";
+		String value="Welcome to traiNing #@ 45";
 		
 		System.out.println(value.length());//size of string
 		System.out.println(value.charAt(18));
