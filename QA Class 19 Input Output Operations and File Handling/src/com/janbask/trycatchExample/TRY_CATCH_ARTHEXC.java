@@ -5,22 +5,26 @@ public class TRY_CATCH_ARTHEXC {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		try {
-			
 		
+			
+		try
+		{
 		 int a = 30;
-         int b = 0;
+         int b = 1;
          int c = a/b;  // cannot divide by zero
          System.out.println ("Result = " + c);
-         
 		}
-		
-		catch(Exception e1) {
+	   
+		catch(Exception e) 
+		{
+			System.out.println("cannot divide by zero");
+			e.printStackTrace();
 			
-			e1.printStackTrace();
-			System.out.println("inside catch block ");
-			System.out.println("cannot divide ");
 		}
+			
+		
+		
+		
          System.out.println("eND OF THE PROGRAM");
          
          System.out.println("starting new program");

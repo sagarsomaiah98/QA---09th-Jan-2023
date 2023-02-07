@@ -9,9 +9,10 @@ public class Try_Catch {
 		
 		try {
 		
-		a[10]=30;
+		
 		a[3]=10;
 		a[2]=20;
+		a[10]=30;
 		System.out.println(a[0]);
 		System.out.println(a[1]);
 		
@@ -31,6 +32,7 @@ public class Try_Catch {
 		System.out.println("end of the program");
 		
 		String stud[]= new String[5];
+		System.out.println(stud[2]);
 		
 		
 		

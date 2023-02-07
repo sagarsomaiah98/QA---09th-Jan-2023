@@ -11,16 +11,16 @@ public class Try_Catch_Example {
 		stud[1]="steve";
 		stud[2]="john";
 		
-		try {
-		System.out.println(stud[2]);
+       try {
+		System.out.println(stud[4]);
 		
-		}
-		catch(Exception e1) {
-			
-			//e1.printStackTrace();
-			
-			System.out.println(" in the catch block");
-		}
+       }
+       catch(Exception e1) {
+    	   e1.printStackTrace();
+    	   System.out.println("cannot fetch the values at index 4");
+       }
+	
+	
 		
 		System.out.println(stud[1]);
 	}
