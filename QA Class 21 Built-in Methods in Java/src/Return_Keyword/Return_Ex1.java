@@ -9,6 +9,7 @@ public class Return_Ex1 {
 		char grade='A';
 		String name="James";
 		boolean flag=true;
+		
 		return flag;
 		
 		
@@ -20,7 +21,7 @@ public class Return_Ex1 {
 
        Return_Ex1 re= new Return_Ex1();
        
-       boolean value=re.method1();
+    boolean value=re.method1();
        
        System.out.println(value);
        

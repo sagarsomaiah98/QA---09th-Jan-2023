@@ -3,7 +3,7 @@ package Static_KeyWords;
 public class Stud {
 
 	static int marks=90;
-	static String name="Kevin";
+	static String name="Jack";
 	
 	public static void stud_info() {
 		char grade='C';
@@ -15,7 +15,8 @@ public class Stud {
 	}
 	public  void display() {
 		
-		System.out.println("calling display method");
+		System.out.println("calling display method inside "
+				+ "stud method");
 	}
 	
 

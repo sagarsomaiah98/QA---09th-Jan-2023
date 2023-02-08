@@ -31,11 +31,7 @@ public class Employee {
 
 	public static void main(String[] args) {
 		
-	Employee e= new Employee();
-	e.emp_info();
-	e.emp_medi();
-	System.out.println(e.role);	
-	System.out.println(e.salary);
+
 		
 		
 		
