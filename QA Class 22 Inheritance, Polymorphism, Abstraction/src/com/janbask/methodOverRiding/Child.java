@@ -1,13 +1,14 @@
 package com.janbask.methodOverRiding;
 public class Child extends Parent {
 	
-	String name="Winchester";
-	
-	//method overriding
-	public void method1() {
+	String name="Bruce";
+	public void method2() {
 		
-		System.out.println("modifying in child method");
+		System.out.println("Child modifying method 2");
+		
 	}
+	
+
 
 		
 	public void method3() {

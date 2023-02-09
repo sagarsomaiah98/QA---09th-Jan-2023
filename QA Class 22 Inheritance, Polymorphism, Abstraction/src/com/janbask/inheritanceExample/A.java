@@ -1,6 +1,6 @@
 package com.janbask.inheritanceExample;
 
-public class A {
+public class A  {
 	//global variables
 	String name="Wayne";
 	char grade='A';
@@ -23,6 +23,7 @@ public class A {
 		a.car();
 		System.out.println(a.name);
 		System.out.println(a.grade);
+		
 		
 		
 		

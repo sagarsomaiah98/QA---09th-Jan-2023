@@ -1,29 +1,27 @@
 package com.janbask.interfaceExample;
 
-public class ICICI implements CentralBank {
+public class WestPac implements CentralBank{
 
 	public static void main(String[] args) {
-	
-ICICI i = new ICICI();
-i.credicard();
-i.homeloans();
-i.insurance();
+		// TODO Auto-generated method stub
+
 	}
 
 	@Override
 	public void homeloans() {
-		System.out.println("home loans icici");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void insurance() {
-	System.out.println("insurace icici");
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void credicard() {
-		System.out.println("credit card icicic");
+		// TODO Auto-generated method stub
 		
 	}
 
@@ -34,5 +32,4 @@ i.insurance();
 	}
 
 	
-
 }

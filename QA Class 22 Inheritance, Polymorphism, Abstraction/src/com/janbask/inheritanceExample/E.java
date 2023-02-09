@@ -6,12 +6,6 @@ public class E extends B {
 	
 		E e= new E();
 		
-		e.house();
-		e.car();
-		e.factory();
-		System.out.println(e.name);
-		System.out.println(e.grade);
-		System.out.println(e.pension);
 	
 		
 		
