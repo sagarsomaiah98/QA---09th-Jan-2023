@@ -56,5 +56,6 @@
 	<classpathentry kind="lib" path="S:/JANBASK/QA - 09th Jan 2023/poi-bin-5.2.3/poi-ooxml-full-5.2.3.jar"/>
 	<classpathentry kind="lib" path="S:/JANBASK/QA - 09th Jan 2023/poi-bin-5.2.3/poi-ooxml-lite-5.2.3.jar"/>
 	<classpathentry kind="lib" path="S:/JANBASK/QA - 09th Jan 2023/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar"/>
+	<classpathentry kind="lib" path="S:/JANBASK/QA - 09th Jan 2023/selenium-server-4.8.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
