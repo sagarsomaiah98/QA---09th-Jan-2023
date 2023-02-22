@@ -11,8 +11,10 @@ public class Run extends Protected_Example{
  Run r = new Run();
 r.method1();
 
-System.out.println(r.age);
-System.out.println(r.name);
+//System.out.println(r.age);
+//System.out.println(r.name);
+
+System.out.println(System.getProperty("user.dir"));
 	}
 
 }
