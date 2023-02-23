@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import pages.LoginPage;
 import testBase.TestBase;
+import util.Util;
 
 public class LoginTest extends TestBase {
 	
@@ -22,6 +23,7 @@ public class LoginTest extends TestBase {
 		
 		LoginPage l = new LoginPage();
 		l.login("standard_user","secret_sauce");
+	   Util.Screenshot();
 		
 		
 	}
@@ -31,6 +33,7 @@ public class LoginTest extends TestBase {
 		
 		LoginPage l = new LoginPage();
 		l.login("username1","secret_sauce");
+		   Util.Screenshot();
 		
 		
 	}

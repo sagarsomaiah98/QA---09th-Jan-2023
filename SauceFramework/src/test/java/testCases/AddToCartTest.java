@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import pages.AddToCartPage;
 import pages.LoginPage;
 import testBase.TestBase;
+import util.Util;
 
 public class AddToCartTest extends TestBase{
 	@BeforeMethod
@@ -17,13 +18,14 @@ public class AddToCartTest extends TestBase{
 	}
 	
 	@Test
-	public void addtocart() {
+	public void addtocart() throws IOException {
 		
 		LoginPage l = new LoginPage();
 		l.login("standard_user","secret_sauce");
 		
 		AddToCartPage a = new AddToCartPage();
 		a.addtocart();
+		Util.Screenshot();
 		
 	}
 	@AfterMethod
